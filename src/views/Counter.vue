@@ -3,7 +3,7 @@
     counter num: {{ $store.state.counter.count }}
     <button @click="increaseFun">+</button>
     <button @click="decreaseFun">-</button>
-    <span>--------------</span>
+    <span>-----------------</span>
     counter2 num: {{ $store.state.counter.count }}
     <button @click="increaseFun1">+</button>
     <button @click="decreaseFun2">-</button>
